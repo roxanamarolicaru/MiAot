@@ -1,0 +1,18 @@
+{
+    "miaot_catalog_server_name" : "http://192.168.1.140:8080/",
+    "system_id" : 1000,
+    "bn" : "raspberry_bowl_water",
+    "sensor" : 
+    {
+        "name" : "Level",
+        "unit" : "mL"
+    },
+    "actuator" : 
+    {
+        "name" : "Valve",
+        "threshold_min" : 250,
+        "threshold_max" : 500
+    },
+    "control_sleeping_time" : 5,
+    "alive_sleeping_time" : 5
+}

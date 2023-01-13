@@ -1,0 +1,25 @@
+{
+    "system_id" : 1000,
+    "miaot_catalog_server_name" : "http://192.168.1.140:8080/",
+    "bn" : "raspberry_kennel",
+    "sensor" : 
+    {
+        "name" : "Temperature",
+        "unit" : "C"
+    },
+    "actuator" : 
+    {
+        "name" : "Resistor",
+        "threshold_min" : "None",
+        "threshold_max" : 30
+    },
+    "simulator":
+    {
+        "initial_condition" : 21,
+        "loading_rate" : 0.25,
+        "downloading_rate" : 0.5,  
+        "sleeping_time" : 1      
+    },
+    "control_sleeping_time" : 1,
+    "alive_sleeping_time" : 1
+}

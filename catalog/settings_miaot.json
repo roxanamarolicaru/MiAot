@@ -1,0 +1,6 @@
+{
+    "catalog_ip" : "192.168.1.140",
+    "mqtt_message_broker" : "broker.hivemq.com",
+    "mqtt_port" : 1883,
+    "alive_sleeping_time" : 30
+}

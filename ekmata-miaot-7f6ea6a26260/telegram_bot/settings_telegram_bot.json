@@ -1,0 +1,7 @@
+{
+    "token" : "1507656764:AAEiqSiD_EQG6slQviruc_OHVefv1L2GWFo",
+    "catalog_address" : "http://192.168.1.140:8080/",
+    "thingspeak_settings" : "settings_thingspeak.json",
+    "topic" : "arduinoMicro_collar/",
+    "easter_egg" : "https://i.redd.it/5m6zb36gckl31.jpg"
+}

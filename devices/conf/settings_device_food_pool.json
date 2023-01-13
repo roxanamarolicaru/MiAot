@@ -1,0 +1,25 @@
+{
+    "miaot_catalog_server_name" : "http://192.168.1.140:8080/",
+    "system_id" : 1000,
+    "bn" : "raspberry_food_pool",
+    "sensor" : 
+    {
+        "name" : "Food_level",
+        "unit" : "gr"
+    },
+    "actuator" : 
+    {
+        "name" : "Person",
+        "threshold_min" : "None",
+        "threshold_max" : "None"
+    },
+    "simulator":
+    {
+        "initial_condition" : 1000,
+        "loading_rate" : 5,
+        "downloading_rate" : 10,  
+        "sleeping_time" : 10      
+    },
+    "control_sleeping_time" : 5,
+    "alive_sleeping_time" : 5
+}

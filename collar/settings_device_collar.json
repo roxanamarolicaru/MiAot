@@ -1,0 +1,13 @@
+{
+    "miaot_catalog_server_name" : "http://192.168.1.140:8080/",
+    "system_id" : 1000,
+    "bn" : "arduinoMicro_collar",
+    "IP_to_ping" : "192.168.1.117",
+    "sensor" : 
+    {
+        "name" : "Presence",
+        "unit" : "bool"
+    },
+    "control_sleeping_time" : 5,
+    "alive_sleeping_time" : 5
+}

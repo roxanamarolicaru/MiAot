@@ -1,0 +1,25 @@
+{
+    "miaot_catalog_server_name" : "http://192.168.1.140:8080/",
+    "system_id" : 1000,
+    "bn" : "raspberry_water_tank",
+    "sensor" : 
+    {
+        "name" : "Water_level",
+        "unit" : "L"
+    },
+    "actuator" : 
+    {
+        "name" : "Person",
+        "threshold_min" : "None",
+        "threshold_max" : "None"
+    },
+    "simulator":
+    {
+        "initial_condition" : 3,
+        "loading_rate" : 0.1,
+        "downloading_rate" : 0.01,  
+        "sleeping_time" : 5      
+    },
+    "control_sleeping_time" : 5,
+    "alive_sleeping_time" : 5
+}

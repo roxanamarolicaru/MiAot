@@ -1,0 +1,20 @@
+{
+    "system_id" : 1000,
+    "miaot_catalog_server_name" : "http://192.168.1.140:8080/",
+    "bn" : "raspberry_kennel",
+    "sensor" : 
+    {
+        "name" : "Temperature",
+        "unit" : "C"
+    },
+    "actuator" : 
+    {
+        "name" : "Resistor",
+        "threshold_min" : 20,
+        "threshold_max" : 25
+    },
+    "time_schedule_interval" : ["14:00:00", "14:10:00"],
+    "time_schedule_point" : [],
+    "control_sleeping_time" : 1,
+    "alive_sleeping_time" : 1
+}

@@ -1,0 +1,8 @@
+{
+    "miaot_catalog_server_name" : "http://192.168.1.140:8080/",
+    "system_id" : 1000,
+    "thingspeak_key" : {"api_key": "0GUZFHZSR1KGG5EO"},
+    "bn" : ["raspberry_kennel", "raspberry_bowl_water", "raspberry_bowl_food","arduinoMicro_collar"],
+    "catalog_address" : "http://192.168.1.140:8080",
+    "adaptor_sleeping_period": 15
+}
